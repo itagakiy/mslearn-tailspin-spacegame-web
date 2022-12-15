@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'TestAgentLocal'
+  name: 'TestAgentLocal'
   demands:
   - npm
 
